@@ -22,4 +22,4 @@ root	ALL=(ALL) 	ALL
 sysadm ALL=(ALL) NOPASSWD: ALL
 
 %wheel	ALL=(ALL)	ALL
-%sudoadmin ALL=(root) NOPASSWD: ALL
+%sudoadmin ALL=(root)  ALL
