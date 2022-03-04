@@ -7,7 +7,7 @@ Defaults   !visiblepw
 Defaults    always_set_home
 Defaults    match_group_by_gid
 
-Defaults    always_query_group_plugin
+# Defaults    always_query_group_plugin
 
 Defaults    env_reset
 Defaults    env_keep =  "COLORS DISPLAY HOSTNAME HISTSIZE KDEDIR LS_COLORS"
@@ -18,8 +18,11 @@ Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY
 
 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 
-root	ALL=(ALL) 	ALL
-sysadm ALL=(ALL) NOPASSWD: ALL
+User_Alias SUDOUSERS = suser1, suser2, suser3
 
-%wheel	ALL=(ALL)	ALL
+root    ALL=(ALL)       ALL
+sysadm ALL=(ALL) NOPASSWD: ALL
+SUDOUSERS ALL=(ALL) NOPASSWD: ALL
+
+%wheel  ALL=(ALL)       ALL
 %sudoadmin ALL=(root)  ALL
