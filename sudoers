@@ -1,6 +1,6 @@
 Defaults group_plugin="/opt/quest/lib64/libsudo_vas.so"
 Defaults always_query_group_plugin
-Defaults log_input, log_output
+# Defaults log_input, log_output
 
 Defaults   !visiblepw
 
