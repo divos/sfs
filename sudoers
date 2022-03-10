@@ -18,7 +18,7 @@ Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY
 
 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 
-User_Alias SUDOUSERS = suser1, suser2, suser3
+User_Alias SUDOUSERS = suser1, suser2, suser3, suser4
 
 root    ALL=(ALL)       ALL
 sysadm ALL=(ALL) NOPASSWD: ALL
