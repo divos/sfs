@@ -26,5 +26,3 @@ SUDOUSERS ALL=(ALL) NOPASSWD: ALL
 
 %wheel  ALL=(ALL)       ALL
 %sudoadmin ALL=(root)  ALL
-
-THIS SHOULD FAIL< I HOPE
